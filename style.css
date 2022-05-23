@@ -42,3 +42,15 @@
   /* Section-Padding */
   --padding-section: 8vh 3vw;
 }
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.7;
+  background-color: var(--color-quaternary);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr repeat(10, minmax(mix-content, 11rem)) 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
